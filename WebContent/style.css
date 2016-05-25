@@ -49,8 +49,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', end
     line-height: 15px
 }
 
-.child {
+.child td{
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  display: block;
+}
     
+#Tamil Nadu_cities td{
+	text-align: center;
+  vertical-align: middle;
+	 position: relative;
+  display: block;
 }
 
 

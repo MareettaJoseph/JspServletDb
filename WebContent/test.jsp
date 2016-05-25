@@ -85,16 +85,17 @@
 				     if(indiState.getState_name().equalsIgnoreCase("Tamil Nadu")) {
 				   %>
 				   <tr id="Tamil Nadu_cities" class="child" style="display:none;">
+				  
 				       
 				       <%
 				         for(int j=0;j<Tncities.size();j++) {
 				           City iCity= Tncities.get(j);
 				        %>
-				     <td align ="center">     <%= iCity.getCity_name() %></td>
+				     <td > <%= iCity.getCity_name() %></td>
 						<%   
 				          }
 			            %>
-			            </td>
+			            
 			         </tr>
 				   <%   
 				     } else if(indiState.getState_name().equalsIgnoreCase("Kerala")) {
